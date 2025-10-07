@@ -50,3 +50,16 @@ async def encode_callback(client, callback_query):
 
 print("Bot is running...")
 bot.run()
+
+
+import os
+# ... unga code
+# ...
+
+# Render kudukkum PORT environment variable-ai edungal
+# Athu illai endraal, default-a 8080 use pannalaam.
+PORT = int(os.environ.get('PORT', 8080))
+
+# Webhook-kaaga server-ai start seiyum podhu:
+# (Indha section-ai unga bot framework-ku appadi maatrunga)
+# Example: app.run_webhook(listen='0.0.0.0', port=PORT)
