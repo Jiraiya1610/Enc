@@ -1,8 +1,8 @@
 import os
 
 # Telegram API credentials (replace with your real ones later)
-API_ID = int(os.getenv("API_ID", "12345"))
-API_HASH = os.getenv("API_HASH", "your_api_hash_here")
+API_ID = int(os.getenv("API_ID", "25874070"))
+API_HASH = os.getenv("API_HASH", "f1522f0124b736b5eb4df95291d4139c")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
 
 # Owner ID (only you can use the bot)
