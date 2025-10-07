@@ -6,7 +6,7 @@ API_HASH = os.getenv("API_HASH", "f1522f0124b736b5eb4df95291d4139c")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
 
 # Owner ID (only you can use the bot)
-OWNER_ID = int(os.getenv("OWNER_ID", "123456789"))
+OWNER_ID = int(os.getenv("OWNER_ID", "6452540460"))
 
 # Paths
 DOWNLOAD_DIR = "downloads"
